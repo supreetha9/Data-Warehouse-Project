@@ -3,7 +3,7 @@ Building a modern Data warehouse
 # Data Warehouse for Sales Analytics (PostgreSQL)
 
 ## Objective
-Build a modern data warehouse using PostgreSQL to consolidate sales data from ERP and CRM systems.  
+To build a modern data warehouse using PostgreSQL to consolidate sales data from ERP and CRM systems.  
 The goal is to create a single, clean data source for analysis and reporting, helping business teams make informed decisions.
 
 ---
