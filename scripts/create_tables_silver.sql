@@ -77,6 +77,7 @@ CREATE TABLE silver.erp_loc_a101 (
 );
 
 
+
 /* ------------------------------------------------
    ERP PX_CAT_G1V2 - Silver Layer
 ------------------------------------------------ */
@@ -89,3 +90,5 @@ CREATE TABLE silver.erp_px_cat_g1v2 (
     maintenance  VARCHAR(50),
     dwh_create_date TIMESTAMP DEFAULT NOW()
 );
+ALTER TABLE silver.erp_px_cat_g1v2
+RENAME COLUMN ca5 TO cat;
