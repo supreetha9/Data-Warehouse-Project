@@ -21,11 +21,11 @@ SELECT
     COALESCE(prd_cost, 0) AS prd_cost,
 
     CASE UPPER(TRIM(prd_line))
-        WHEN 'M' THEN 'Mountain'
-        WHEN 'R' THEN 'Road'
-        WHEN 'S' THEN 'Other Sales'
-        WHEN 'T' THEN 'Touring'
-        ELSE 'n/a'
+         WHEN 'M' THEN 'Mountain'
+         WHEN 'R' THEN 'Road'
+         WHEN 'S' THEN 'Other Sales'
+         WHEN 'T' THEN 'Touring'
+         ELSE 'n/a'
     END AS prd_line,
 
     CAST(prd_start_dt AS DATE) AS prd_start_dt,
